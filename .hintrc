@@ -9,7 +9,8 @@
         "ignore": [
           "backdrop-filter",
           "rotate",
-          "width: fit-content"
+          "width: fit-content",
+          "scale"
         ]
       }
     ],
