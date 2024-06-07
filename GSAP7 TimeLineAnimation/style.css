@@ -1,0 +1,192 @@
+@font-face {
+    font-family: japan;
+    src: url(./3856NeueMachina.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+section{
+    height:100% ;
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+}
+nav h1{
+    font-size: 50px; 
+}
+nav h1 i{
+    rotate:45deg ;
+    display: inline-block;
+    font-size: 55px;
+}
+nav h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+nav button{
+    padding: 22px 40px;
+    font-size: 22px;
+    background-color: transparent;
+    border-radius: 10px;
+    border:1px solid black;
+    font-weight: 600;
+}
+.center{
+ padding: 70px 100px;
+ height: 80%;
+ width: 100%;
+ display: flex;
+}
+.center-part1{
+    height: 100%;
+    width: 45%;
+}
+.center-part1 h1{
+    line-height:1.2;
+    font-size:65px;
+    font-family: japan;
+}
+.center-part1 p{
+    font-size: 25px;
+    width: 95%;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.center-part1 button{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 25px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+.center-part2{
+    height: 100%;
+    width: 55%;
+    position: relative;
+}
+.center-part2 img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+}
+.section1bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px;
+}
+.section1bottom img{
+    height: 60px;
+    color: black;
+}
+
+
+
+.section2 .services{
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-top: 200px;
+}
+.services h3{
+    background-color:#9AE975 ;
+    font-weight: 500;
+    padding:2px 10px 0px 10px;
+    border-radius: 5px;
+    font-family: japan ;
+    font-size: 40px;
+}
+.services p{
+    width: 40%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container{
+    min-height:85vh;
+    width: 100%;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.elem{
+    flex-shrink: 0;
+    height:300px;
+    width: 48%;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow:0px 15px 0px black;
+    padding: 50px;
+    display: flex;
+
+}
+.elem-part1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.elem-part2{
+    height: 100%;
+    width: 50%;
+}
+.elem-part2 img{
+    height: 100%; 
+}
+.elem-part1 h2{
+    font-size: 35px ;
+    font-weight: 500;
+    font-family: japan;
+    width:70% ;
+    border-radius: 10px;
+    padding: 0px 3px;
+    background-color: #9AE975;
+}
+.elem-part1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 20px ;
+    font-weight: 500;
+    gap: 20px;
+}
+.elem-part1 h4 i{
+    padding: 10px ;
+    background-color: black;
+    font-weight:900 ;
+    color: #fff;
+    border-radius: 50%;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+

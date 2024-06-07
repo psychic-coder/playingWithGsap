@@ -7,9 +7,12 @@
       "default",
       {
         "ignore": [
-          "backdrop-filter"
+          "backdrop-filter",
+          "rotate",
+          "width: fit-content"
         ]
       }
-    ]
+    ],
+    "button-type": "off"
   }
 }
